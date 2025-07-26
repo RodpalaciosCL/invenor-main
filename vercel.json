@@ -1,20 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/invest",
-      "destination": "https://invenor-invest-v2.vercel.app"
+      "source": "/invest/:path*",
+      "destination": "https://invenor-invest-v2.vercel.app/:path*"
     },
     {
-      "source": "/invest/(.*)",
-      "destination": "https://invenor-invest-v2.vercel.app/$1"
-    },
-    {
-      "source": "/global-bids",
-      "destination": "https://global-bids.vercel.app"
-    },
-    {
-      "source": "/global-bids/(.*)",
-      "destination": "https://global-bids.vercel.app/$1"
+      "source": "/global-bids/:path*",
+      "destination": "https://global-bids.vercel.app/:path*"
     }
   ]
 }
