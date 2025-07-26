@@ -1,24 +1,20 @@
 {
   "rewrites": [
     {
-      "source": "/global-bids(/.*)?",
-      "destination": "https://global-bids.vercel.app$1"
+      "source": "/invest",
+      "destination": "https://invenor-invest-v2.vercel.app"
     },
     {
-      "source": "/invenor-invest(/.*)?",
-      "destination": "https://invenor-invest-v2.vercel.app$1"
+      "source": "/invest/(.*)",
+      "destination": "https://invenor-invest-v2.vercel.app/$1"
     },
     {
-      "source": "/invenor(/.*)?",
-      "destination": "https://invenor.vercel.app$1"
+      "source": "/global-bids",
+      "destination": "https://global-bids.vercel.app"
     },
     {
-      "source": "/codex(/.*)?",
-      "destination": "https://codex-entorno.vercel.app$1"
-    },
-    {
-      "source": "/cruzverde(/.*)?",
-      "destination": "https://cruzverde-app.vercel.app$1"
+      "source": "/global-bids/(.*)",
+      "destination": "https://global-bids.vercel.app/$1"
     }
   ]
 }
