@@ -7,6 +7,10 @@
     {
       "source": "/global-bids/:path*",
       "destination": "https://global-bids.vercel.app/:path*"
+    },
+    {
+      "source": "/ey/:path*",
+      "destination": "https://rod-ey-deck-frfnne9hw-rodpalacioscls-projects.vercel.app/:path*"
     }
   ]
 }
